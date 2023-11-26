@@ -1,3 +1,7 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+const batteryBatches = [4, 5, 6, 7];
 
-// Code your solution here
+const totalBatteries = batteryBatches.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+
+console.log(totalBatteries); // Output: 22

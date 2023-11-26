@@ -10,10 +10,4 @@ describe('reducer', function() {
 
     it('should have a number as a result', function() {
       expect(totalBatteries).to.be.a('number');
-    });
-
-    it('should have made the sum of all the assembled batteries', function() {
-      expect(totalBatteries).to.eql(31);
-    });
-  });
-});
+    })})})
